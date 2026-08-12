@@ -42,14 +42,55 @@
 
 `<element attribute = "value">` `</element>`
 
-### **1. href Attribute -** 
+### 1. **href** Attribute - 
 Specifies the URL of the link.
 
-### **2. target Attribute -**
+### 2. **target** Attribute -
 Specifies where to open the link.
 
+---
 Example - `<a href = "https://github.com/" target = "_blank">Visit GitHub</a>`
 
 Output - <a href = "https://github.com/" target = "_blank">Visit GitHub</a>
 
 **NOTE :** Here, `target="_blank"` enables the link to open in a new browser tab. There are more commands for target attribute as well.
+
+---
+
+### 3. **src** Attribute -
+Specifies the source of an image.
+
+### 4. **alt** Attribute -
+Gives an alternative brief description about the image. This attribute is not a compulsion, however it is recommended for accessibility purposes thus making sure that everyone, including people with disabilities can use and understand webpages.
+
+### 5. **checked** Attribute - 
+A very unique attribute with its very own syntax.
+
+---
+`<input type="checkbox"/>`
+
+Output - ☐
+
+To have this checkbox already checked from the beginning, simply type in checked at the end of the syntax.
+
+`<input type = "checkbox" checked/>`
+
+Output - ☑
+
+---
+
+### 6. **disabled** Attribute -
+As the name suggests, it disables the interactivity by default. Here's an example : 
+
+---
+`<input type = "text"/>`
+
+Output - An editable text box. 
+
+If you add in disabled at the end of the syntax, the text box will be visible however it won't allow any text inputs.
+
+`<input type = "text" disabled/>`
+
+Output - The same text box, this time not taking any text input.
+
+---
