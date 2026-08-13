@@ -40,7 +40,9 @@
 
 **Ans:** Attribute is a value placed inside the opening tag of HTML. It either provides additional information about the element or decides how the element should behave. Here's the basic syntax - 
 
-`<element attribute = "value">` `</element>`
+```html 
+<element attribute = "value">` `</element>
+```
 
 ### 1. **href** Attribute - 
 Specifies the URL of the link.
@@ -49,7 +51,10 @@ Specifies the URL of the link.
 Specifies where to open the link.
 
 ---
-Example - `<a href = "https://github.com/" target = "_blank">Visit GitHub</a>`
+Example - 
+```html
+<a href = "https://github.com/" target = "_blank">Visit GitHub</a>
+```
 
 Output - <a href = "https://github.com/" target = "_blank">Visit GitHub</a>
 
@@ -66,31 +71,34 @@ Gives an alternative brief description about the image. This attribute is not a 
 ### 5. **checked** Attribute - 
 A very unique attribute with its very own syntax.
 
----
-`<input type="checkbox"/>`
+```html
+<input type="checkbox"/>
+```
 
 Output - ☐
 
 To have this checkbox already checked from the beginning, simply type in checked at the end of the syntax.
 
-`<input type = "checkbox" checked/>`
+```html
+<input type = "checkbox" checked/>
+```
 
 Output - ☑
-
----
 
 ### 6. **disabled** Attribute -
 As the name suggests, it disables the interactivity by default. Here's an example : 
 
----
-`<input type = "text"/>`
+```html
+<input type = "text"/>
+```
 
 Output - An editable text box. 
 
 If you add in disabled at the end of the syntax, the text box will be visible however it won't allow any text inputs.
 
-`<input type = "text" disabled/>`
+```html
+<input type = "text" disabled/>
+```
 
 Output - The same text box, this time not taking any text input.
 
----
