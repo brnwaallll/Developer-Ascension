@@ -33,3 +33,8 @@ We already know that `<h1>` is the most important heading, however we can still 
   color : red;
 }
 ```
+### **Output :**
+
+```diff
+- This entire text line will show up as red.
+```
